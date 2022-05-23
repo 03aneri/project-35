@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zen</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+<!-- firebase start -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+  <script>
+    // Your Firebase configuration - the part u need to change
+    const firebaseConfig = {
+  apiKey: "AIzaSyCXq-elaE1wMoFawhPX0SyYvnqfYqOlnmc",
+  authDomain: "air-balloon-2a933.firebaseapp.com",
+  databaseURL: "https://air-balloon-2a933-default-rtdb.firebaseio.com",
+  projectId: "air-balloon-2a933",
+  storageBucket: "air-balloon-2a933.appspot.com",
+  messagingSenderId: "123416641039",
+  appId: "1:123416641039:web:6c808e92ddc7f581cc6d7a"
+};
+
+    firebase.initializeApp(firebaseConfig);
+  </script>
+<!-- firebase end  -->
+
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
